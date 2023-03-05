@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <!-- Add your site or application content here -->
+    <h2>Registro Servicio</h2>
+
+    <form action="">
+      <h4>Datos del cliente</h4>
+      <label for="">Nombre</label>
+      <input type="text" />
+      <label for="">Numero de Telefono</label>
+      <input type="number" />
+      <h4>Datos del Telefono</h4>
+      <fieldset>
+        <legend>Tipo de Solicitud</legend>
+        <label>
+          <input type="radio" name="numero" value="1" /> Reparacion
+        </label>
+        <label>
+          <input type="radio" name="numero" value="2" /> Diagnostico
+        </label>
+        <label>
+          <input type="radio" name="numero" value="3" /> Cotizacion
+        </label>
+      </fieldset>
+      <label for="">Marca</label>
+      <input type="text" />
+      <label for="">Modelo</label>
+      <input type="text" />
+      <label for="">Problema o Solicitud</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <fieldset>
+        <legend>Estado del equipo</legend>
+        <label> <input type="radio" name="numero" value="1" /> Apagado </label>
+        <label> <input type="radio" name="numero" value="2" /> Mojado </label>
+        <label> <input type="radio" name="numero" value="3" /> Golpeado </label>
+        <label> <input type="radio" name="numero" value="3" /> No Carga </label>
+      </fieldset>
+      <fieldset>
+        <legend>Incluye</legend>
+        <label> <input type="radio" name="numero" value="1" /> Ninguna </label>
+        <label> <input type="radio" name="numero" value="1" /> Sim </label>
+        <label> <input type="radio" name="numero" value="2" /> Micro SD </label>
+        <label> <input type="radio" name="numero" value="3" /> Cargador </label>
+        <label> <input type="radio" name="numero" value="3" /> Cable </label>
+        <label> <input type="radio" name="numero" value="3" /> Protector</label>
+      </fieldset>
+      <label for="">Abono</label>
+      <input type="text" />
+      <label for="">Precio Parcial</label>
+      <input type="text" name="" id="" />
+      <label for="">Observaciones del Tecnico</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <button type="button">Guardar Servicio</button>
+    </form>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
